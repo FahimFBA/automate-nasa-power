@@ -1,4 +1,6 @@
+import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import time
 import requests
 import config
@@ -7,8 +9,6 @@ import config
 os.makedirs("data", exist_ok=True)
 
 # Function to download data for a given year
-
-
 def download_data(year):
     start_date = f"{year}0101"
     end_date = f"{year}1231"
