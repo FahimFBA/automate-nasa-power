@@ -26,6 +26,26 @@ This project automates the downloading and merging of hourly climate data from [
 
 ---
 
+## 📊 Available Parameters  
+
+The following meteorological parameters are included in the downloaded dataset:  
+
+| Parameter             | Description                                                   | Unit    |
+| --------------------- | ------------------------------------------------------------- | ------- |
+| **ALLSKY_SFC_SW_DWN** | All Sky Surface Shortwave Downward Irradiance (CERES SYN1deg) | Wh/m²   |
+| **T2M**               | Temperature at 2 Meters (MERRA-2)                             | °C      |
+| **RH2M**              | Relative Humidity at 2 Meters (MERRA-2)                       | %       |
+| **PS**                | Surface Pressure (MERRA-2)                                    | kPa     |
+| **WS10M**             | Wind Speed at 10 Meters (MERRA-2)                             | m/s     |
+| **WD10M**             | Wind Direction at 10 Meters (MERRA-2)                         | Degrees |
+| **WS50M**             | Wind Speed at 50 Meters (MERRA-2)                             | m/s     |
+| **WD50M**             | Wind Direction at 50 Meters (MERRA-2)                         | Degrees |
+| **RHOA**              | Surface Air Density (MERRA-2)                                 | kg/m³   |
+| **QV10M**             | Specific Humidity at 10 Meters (MERRA-2)                      | g/kg    |
+| **CLOUD_AMT**         | Cloud Amount (CERES SYN1deg)                                  | %       |
+
+---
+
 ## 🔧 Setup Instructions  
 ### 1️⃣ Clone the Repository  
 ```bash
@@ -66,4 +86,4 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 ## 👨‍💻 Author  
 Md. Fahim Bin Amin – [fahimbinamin@gmail.com](mailto:fahimbinamin@gmail.com)  
-GitHub: [@FahimFBA](https://github.com/FahimFBA)  
+GitHub: [@FahimFBA](https://github.com/FahimFBA)
